@@ -1,9 +1,9 @@
 //
 //  GameViewController.m
-//  Try_PlaneAndCoin
+//  Try_Plane_Landscope
 //
-//  Created by irons on 2016/4/13.
-//  Copyright (c) 2016年 irons. All rights reserved.
+//  Created by irons on 2015/7/24.
+//  Copyright (c) 2015年 irons. All rights reserved.
 //
 
 #import "GameViewController.h"
@@ -33,20 +33,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+}
 
-    // Configure the view.
+- (void)viewWillLayoutSubviews{
+    [super viewWillLayoutSubviews];
+    
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
-    /* Sprite Kit applies additional optimizations to improve rendering performance */
-    skView.ignoresSiblingOrder = YES;
     
-    // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
-    scene.scaleMode = SKSceneScaleModeAspectFill;
-    
-    // Present the scene.
-    [skView presentScene:scene];
+    if (!skView.scene) {
+        skView.showsFPS = YES;
+        skView.showsNodeCount = YES;
+        
+        // Create and configure the scene.
+        GameScene * scene = [GameScene sceneWithSize:skView.bounds.size];
+        scene.scaleMode = SKSceneScaleModeAspectFill;
+        
+        // Present the scene.
+        [skView presentScene:scene];
+    }
 }
 
 - (BOOL)shouldAutorotate

@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B5DF8AF91CBE61AD007A2BF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF8AF81CBE61AD007A2BF1 /* main.m */; };
-		B5DF8AFC1CBE61AD007A2BF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF8AFB1CBE61AD007A2BF1 /* AppDelegate.m */; };
-		B5DF8AFF1CBE61AD007A2BF1 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF8AFE1CBE61AD007A2BF1 /* GameScene.m */; };
-		B5DF8B011CBE61AD007A2BF1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5DF8B001CBE61AD007A2BF1 /* GameScene.sks */; };
-		B5DF8B041CBE61AD007A2BF1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF8B031CBE61AD007A2BF1 /* GameViewController.m */; };
 		B5DF8B071CBE61AD007A2BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DF8B051CBE61AD007A2BF1 /* Main.storyboard */; };
 		B5DF8B091CBE61AD007A2BF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5DF8B081CBE61AD007A2BF1 /* Images.xcassets */; };
 		B5DF8B0C1CBE61AD007A2BF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5DF8B0A1CBE61AD007A2BF1 /* LaunchScreen.xib */; };
 		B5DF8B181CBE61AE007A2BF1 /* Try_PlaneAndCoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF8B171CBE61AE007A2BF1 /* Try_PlaneAndCoinTests.m */; };
+		B5DF8B331CBF12A5007A2BF1 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF8B301CBF12A5007A2BF1 /* bg.png */; };
+		B5DF8B341CBF12A5007A2BF1 /* red-missile.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF8B311CBF12A5007A2BF1 /* red-missile.png */; };
+		B5DF8B351CBF12A5007A2BF1 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = B5DF8B321CBF12A5007A2BF1 /* Spaceship.png */; };
+		B5DF8B3F1CBF136F007A2BF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF8B371CBF136F007A2BF1 /* AppDelegate.m */; };
+		B5DF8B401CBF136F007A2BF1 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF8B391CBF136F007A2BF1 /* GameScene.m */; };
+		B5DF8B411CBF136F007A2BF1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B5DF8B3A1CBF136F007A2BF1 /* GameScene.sks */; };
+		B5DF8B421CBF1370007A2BF1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF8B3C1CBF136F007A2BF1 /* GameViewController.m */; };
+		B5DF8B431CBF1370007A2BF1 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DF8B3E1CBF136F007A2BF1 /* GameOverScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,19 +36,24 @@
 		B5DF8AF31CBE61AD007A2BF1 /* Try_PlaneAndCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Try_PlaneAndCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF8AF71CBE61AD007A2BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5DF8AF81CBE61AD007A2BF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B5DF8AFA1CBE61AD007A2BF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B5DF8AFB1CBE61AD007A2BF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5DF8AFD1CBE61AD007A2BF1 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		B5DF8AFE1CBE61AD007A2BF1 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		B5DF8B001CBE61AD007A2BF1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		B5DF8B021CBE61AD007A2BF1 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		B5DF8B031CBE61AD007A2BF1 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		B5DF8B061CBE61AD007A2BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5DF8B081CBE61AD007A2BF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5DF8B0B1CBE61AD007A2BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B5DF8B111CBE61AE007A2BF1 /* Try_PlaneAndCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_PlaneAndCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF8B161CBE61AE007A2BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5DF8B171CBE61AE007A2BF1 /* Try_PlaneAndCoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Try_PlaneAndCoinTests.m; sourceTree = "<group>"; };
+		B5DF8B301CBF12A5007A2BF1 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		B5DF8B311CBF12A5007A2BF1 /* red-missile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-missile.png"; sourceTree = "<group>"; };
+		B5DF8B321CBF12A5007A2BF1 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		B5DF8B361CBF136F007A2BF1 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5DF8B371CBF136F007A2BF1 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5DF8B381CBF136F007A2BF1 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B5DF8B391CBF136F007A2BF1 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B5DF8B3A1CBF136F007A2BF1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B5DF8B3B1CBF136F007A2BF1 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B5DF8B3C1CBF136F007A2BF1 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B5DF8B3D1CBF136F007A2BF1 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		B5DF8B3E1CBF136F007A2BF1 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +95,16 @@
 		B5DF8AF51CBE61AD007A2BF1 /* Try_PlaneAndCoin */ = {
 			isa = PBXGroup;
 			children = (
-				B5DF8AFA1CBE61AD007A2BF1 /* AppDelegate.h */,
-				B5DF8AFB1CBE61AD007A2BF1 /* AppDelegate.m */,
-				B5DF8AFD1CBE61AD007A2BF1 /* GameScene.h */,
-				B5DF8AFE1CBE61AD007A2BF1 /* GameScene.m */,
-				B5DF8B001CBE61AD007A2BF1 /* GameScene.sks */,
-				B5DF8B021CBE61AD007A2BF1 /* GameViewController.h */,
-				B5DF8B031CBE61AD007A2BF1 /* GameViewController.m */,
+				B5DF8B361CBF136F007A2BF1 /* AppDelegate.h */,
+				B5DF8B371CBF136F007A2BF1 /* AppDelegate.m */,
+				B5DF8B381CBF136F007A2BF1 /* GameScene.h */,
+				B5DF8B391CBF136F007A2BF1 /* GameScene.m */,
+				B5DF8B3A1CBF136F007A2BF1 /* GameScene.sks */,
+				B5DF8B3B1CBF136F007A2BF1 /* GameViewController.h */,
+				B5DF8B3C1CBF136F007A2BF1 /* GameViewController.m */,
+				B5DF8B3D1CBF136F007A2BF1 /* GameOverScene.h */,
+				B5DF8B3E1CBF136F007A2BF1 /* GameOverScene.m */,
+				B5DF8B2F1CBF1293007A2BF1 /* Images */,
 				B5DF8B051CBE61AD007A2BF1 /* Main.storyboard */,
 				B5DF8B081CBE61AD007A2BF1 /* Images.xcassets */,
 				B5DF8B0A1CBE61AD007A2BF1 /* LaunchScreen.xib */,
@@ -125,6 +137,16 @@
 				B5DF8B161CBE61AE007A2BF1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5DF8B2F1CBF1293007A2BF1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF8B301CBF12A5007A2BF1 /* bg.png */,
+				B5DF8B311CBF12A5007A2BF1 /* red-missile.png */,
+				B5DF8B321CBF12A5007A2BF1 /* Spaceship.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,9 +229,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DF8B351CBF12A5007A2BF1 /* Spaceship.png in Resources */,
+				B5DF8B341CBF12A5007A2BF1 /* red-missile.png in Resources */,
+				B5DF8B331CBF12A5007A2BF1 /* bg.png in Resources */,
 				B5DF8B0C1CBE61AD007A2BF1 /* LaunchScreen.xib in Resources */,
+				B5DF8B411CBF136F007A2BF1 /* GameScene.sks in Resources */,
 				B5DF8B091CBE61AD007A2BF1 /* Images.xcassets in Resources */,
-				B5DF8B011CBE61AD007A2BF1 /* GameScene.sks in Resources */,
 				B5DF8B071CBE61AD007A2BF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,9 +253,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5DF8B041CBE61AD007A2BF1 /* GameViewController.m in Sources */,
-				B5DF8AFC1CBE61AD007A2BF1 /* AppDelegate.m in Sources */,
-				B5DF8AFF1CBE61AD007A2BF1 /* GameScene.m in Sources */,
+				B5DF8B431CBF1370007A2BF1 /* GameOverScene.m in Sources */,
+				B5DF8B421CBF1370007A2BF1 /* GameViewController.m in Sources */,
+				B5DF8B3F1CBF136F007A2BF1 /* AppDelegate.m in Sources */,
+				B5DF8B401CBF136F007A2BF1 /* GameScene.m in Sources */,
 				B5DF8AF91CBE61AD007A2BF1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

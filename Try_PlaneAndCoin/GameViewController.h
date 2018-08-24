@@ -1,9 +1,9 @@
 //
 //  GameViewController.h
-//  Try_PlaneAndCoin
+//  Try_Plane_Landscope
 //
 
-//  Copyright (c) 2016年 irons. All rights reserved.
+//  Copyright (c) 2015年 irons. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
